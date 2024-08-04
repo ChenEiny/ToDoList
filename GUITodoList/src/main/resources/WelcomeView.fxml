@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<VBox spacing="10" alignment="center" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="Controller.WelcomeViewController" prefWidth="400" prefHeight="300">
+    <children>
+        <Label text="Task Description"/>
+        <TextField fx:id="descriptionField"/>
+
+        <Label text="Priority (1-10)"/>
+        <TextField fx:id="priorityField"/>
+
+        <Label text="Deadline"/>
+        <DatePicker fx:id="deadlinePicker"/>
+
+        <Label text="Duration (HH:MM)"/>
+        <TextField fx:id="durationField"/>
+
+        <Button text="Submit" onAction="#handleSubmit"/>
+        <Button text="Report" onAction="#handleReport"/>
+    </children>
+</VBox>

@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="To_Do_List_PartB:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/To_Do_List_PartB_jar</output-path>
+    <root id="archive" name="To_Do_List_PartB.jar">
+      <element id="module-output" name="To_Do_List_PartB" />
+      <element id="extracted-dir" path="$APPLICATION_HOME_DIR$/lib/testFramework.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$APPLICATION_HOME_DIR$/lib/junit.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../To-Do List/out/artifacts/To_Do_List_jar/To-Do List.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$APPLICATION_HOME_DIR$/lib/junit4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/gson-2.11.0.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
